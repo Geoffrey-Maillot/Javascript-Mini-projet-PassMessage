@@ -13,6 +13,7 @@ form.addEventListener('submit', function(e){
 
     if (message.value === ''){
         feedback.classList.add('show')
+        
         setTimeout(function(){
         feedback.classList.remove('show')
         }, 2000)
